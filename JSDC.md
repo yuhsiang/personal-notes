@@ -56,5 +56,7 @@ settger and getter dependencies -> watcher -> [notify] -> Directive -> [update] 
 
 ### Reference
 [sacrificial-architecture-1](https://medium.com/@TheStrazz86/sacrificial-architecture-in-web-development-3926c0593fc8#.pbstt7uvf)
+
 [sacrificial-architecture-2](http://martinfowler.com/bliki/SacrificialArchitecture.html)
+
 [Vue.js](https://vuejs.org/guide/)
