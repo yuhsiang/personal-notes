@@ -13,3 +13,7 @@ You could use grep to remove all except my-image and ubuntu
 ```
 docker rmi $(docker images | grep -v 'ubuntu\|my-image' | awk {'print $3'})
 ```
+### Add person to docker
+```
+sudo usermod -aG docker $USER
+```
