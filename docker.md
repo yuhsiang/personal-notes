@@ -17,3 +17,5 @@ docker rmi $(docker images | grep -v 'ubuntu\|my-image' | awk {'print $3'})
 ```
 sudo usermod -aG docker $USER
 ```
+### Connect to mongo
+```docker run -it --link mongo --rm mongo sh -c 'exec mongo 127.0.0.1:27017'```
